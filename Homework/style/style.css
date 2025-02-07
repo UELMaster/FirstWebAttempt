@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(
+    233deg,
+    #be5ba0,
+    #a35014,
+    #95d1f4,
+    #283aac,
+    #9e02bd
+  );
+  background-size: 300% 300%;
+  animation: gradient-animation 30s ease infinite;
+  padding: auto;
+  color: white;
+  font-size: 200%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Button styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 4rem;
+  padding: 10px 20px;
+  border: none;
+  background: linear-gradient(to right, #692053, #3e69d5);
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.centre {
+  text-align: center;
+}
